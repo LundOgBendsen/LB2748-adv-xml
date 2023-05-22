@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Dette er en kommentar på 1 linie-->
+
+<!-- Dette er en kommentar på
+flere linier
+-->
+
+<demo xmlns="test">
+    <a/><b/>
+    <a/>
+
+    <b/>
+
+    <invoice>
+        <amount currency="DKK &lt;">42</amount>
+    </invoice>
+    <quiz>
+        <question>
+            Hvis a &lt; b og b &lt; c er a &lt; c?
+        </question>
+    </quiz>
+    <course>
+        <number>LB2744</number>
+        <name>XML Foundation</name>
+    </course>
+
+    <course>
+        <type>Lunch</type>
+        <name>Spring 2023, Vegetarian</name>
+    </course>
+
+</demo>

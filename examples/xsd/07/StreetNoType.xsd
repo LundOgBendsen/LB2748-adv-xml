@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.djug.dk/address">
+    <simpleType name="StreetNoType">
+        <restriction base="string">
+            <pattern value="\d{1,5}[a-z]{0,2}"/> <!-- 1 til 5 cifre efterfulgt af 0-2 bogstaver a-z, fx 123a, 1234ab-->
+        </restriction>
+    </simpleType>
+</schema>

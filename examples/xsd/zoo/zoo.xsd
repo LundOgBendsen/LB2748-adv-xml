@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://kkzoo.dk/schemas/dyr"
+        xmlns:tns="http://kkzoo.dk/schemas/dyr"
+         elementFormDefault="qualified" >
+    <include schemaLocation="BurTypeType.xsd"/>
+    <element name="minZoo">
+        <complexType>
+            <choice maxOccurs="unbounded">
+                <element name="bygning" minOccurs="0" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="bur" minOccurs="0" maxOccurs="unbounded">
+                                <complexType>
+                                    <sequence>
+                                        <element name="dyr" minOccurs="0" maxOccurs="unbounded" type="tns:DyrType"/>
+                                    </sequence>
+                                    <attribute name="no" type="positiveInteger"/>
+                                    <attribute name="type" type="tns:BurTypeType"/>
+                                </complexType>
+                            </element>
+                        </sequence>
+                        <attribute name="no" type="positiveInteger"/>
+                    </complexType>
+                </element>
+                <element name="dyr" minOccurs="0" maxOccurs="unbounded" type="tns:DyrType"/>
+            </choice>
+        </complexType>
+    </element>
+
+    <complexType name="DyrType">
+            <sequence>
+                <element name="art" type="string"/>
+                <element name="navn" type="string"/>
+            </sequence>
+    </complexType>
+
+</schema>

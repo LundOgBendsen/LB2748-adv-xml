@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+        targetNamespace="http://lundogbendsen.dk/schemas/2021/08/02/Person"
+        xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="name" type="string"/>
+</schema>

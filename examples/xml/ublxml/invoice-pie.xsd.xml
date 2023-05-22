@@ -1,0 +1,508 @@
+<pie:Invoice xmlns:pie="http://rep.oio.dk/ubl/xml/schemas/0p71/pie/" xmlns:com="http://rep.oio.dk/ubl/xml/schemas/0p71/common/" xmlns:main="http://rep.oio.dk/ubl/xml/schemas/0p71/maindoc/">
+  <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.company.org/cum/sonoras" schemeURI="http://www.any.org/ventos/verrantque" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+  <com:IssueDate UID="string" UIDRef="string" UIDRefs="string string" language="da">2013-05-22+02:00</com:IssueDate>
+  <!--Optional:-->
+  <com:TypeCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.test.com/foedere/ferant" listSchemeURI="http://www.corp.org/et/turbine" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:TypeCode>
+  <!--Optional:-->
+  <main:InvoiceCurrencyCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.company.edu/profundum/bella" listSchemeURI="http://www.any.edu/ac/hoc" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</main:InvoiceCurrencyCode>
+  <!--Optional:-->
+  <com:Note languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Note>
+  <!--Optional:-->
+  <main:EncodedDocument agencyID="string">Y2FlbHVtcXVl</main:EncodedDocument>
+  <!--Zero or more repetitions:-->
+  <com:BuyersReferenceID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.com/aris/coniunx" schemeURI="http://www.any.com/claustra/circum" UID="string" UIDRef="string" UIDRefs="string" language="da" identificationSchemeName="EANC">string</com:BuyersReferenceID>
+  <!--Optional:-->
+  <com:ReferencedOrder>
+    <com:BuyersOrderID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.test.org/et/ac" schemeURI="http://www.my.gov/sed/pectore" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:BuyersOrderID>
+    <!--Optional:-->
+    <com:SellersOrderID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.corp.edu/annos/sciret" schemeURI="http://www.corp.com/rates/bella" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:SellersOrderID>
+    <!--Optional:-->
+    <com:IssueDate UID="string" UIDRef="string" UIDRefs="string string" language="da">2006-12-05</com:IssueDate>
+  </com:ReferencedOrder>
+  <!--1 to 2 repetitions:-->
+  <com:BuyerParty>
+    <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.test.gov/regemque/annos" schemeURI="http://www.sample.com/tenens/regina" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+    <!--Optional:-->
+    <com:AccountCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.sample.com/insuper/mollitque" listSchemeURI="http://www.sample.com/in/soror" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:AccountCode>
+    <!--Zero or more repetitions:-->
+    <com:PartyName>
+      <com:Name languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Name>
+    </com:PartyName>
+    <!--Zero or more repetitions:-->
+    <com:Address>
+      <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.any.gov/ipsa/illum" schemeURI="http://www.my.org/nimborum/aris" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+      <!--Optional:-->
+      <com:Street languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Street>
+      <!--Optional:-->
+      <com:AdditionalStreet languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:AdditionalStreet>
+      <!--Optional:-->
+      <com:HouseNumber languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:HouseNumber>
+      <!--Optional:-->
+      <com:InhouseMail languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:InhouseMail>
+      <!--Optional:-->
+      <com:CityName languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:CityName>
+      <!--Optional:-->
+      <com:PostalZone languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:PostalZone>
+      <!--Optional:-->
+      <com:Country>
+        <!--Optional:-->
+        <com:Code listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.test.org/vasto/montis" listSchemeURI="http://www.sample.org/tempestatesque/aris" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Code>
+      </com:Country>
+    </com:Address>
+    <!--1 to 4 repetitions:-->
+    <com:BuyerContact>
+      <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.your.org/ac/iras" schemeURI="http://www.company.com/et/austris" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+      <!--Optional:-->
+      <com:Name languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Name>
+      <!--Optional:-->
+      <com:Phone languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Phone>
+      <!--Optional:-->
+      <com:Fax languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Fax>
+      <!--Optional:-->
+      <com:E-Mail languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:E-Mail>
+      <!--Optional:-->
+      <com:Role listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.my.com/animos/iras" listSchemeURI="http://www.corp.org/patriam/metuens" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Role>
+    </com:BuyerContact>
+    <!--Optional:-->
+    <com:ExtensibleContent>
+      <!--You may enter ANY elements at this point-->
+      <AnyElement/>
+    </com:ExtensibleContent>
+  </com:BuyerParty>
+  <!--Optional:-->
+  <com:DestinationParty>
+    <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.your.com/tempestatesque/e" schemeURI="http://www.your.org/vasto/murmure" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+    <!--Optional:-->
+    <com:AccountCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.test.org/rapidi/turbine" listSchemeURI="http://www.my.org/sciret/aequora" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:AccountCode>
+    <!--Zero or more repetitions:-->
+    <com:PartyName>
+      <com:Name languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Name>
+    </com:PartyName>
+    <!--Zero or more repetitions:-->
+    <com:Contact>
+      <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.org/aris/incedo" schemeURI="http://www.any.com/arce/ego" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+      <!--Optional:-->
+      <com:Name languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Name>
+      <!--Optional:-->
+      <com:Phone languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Phone>
+      <!--Optional:-->
+      <com:Fax languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Fax>
+      <!--Optional:-->
+      <com:E-Mail languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:E-Mail>
+    </com:Contact>
+    <!--Zero or more repetitions:-->
+    <com:Language>
+      <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.my.com/molemque/temperat" schemeURI="http://www.corp.gov/nimborum/gero" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+    </com:Language>
+    <!--Zero or more repetitions:-->
+    <com:Address>
+      <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.test.org/premere/hic" schemeURI="http://www.corp.com/nubibus/carcere" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+      <!--Optional:-->
+      <com:Street languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Street>
+      <!--Optional:-->
+      <com:AdditionalStreet languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:AdditionalStreet>
+      <!--Optional:-->
+      <com:HouseNumber languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:HouseNumber>
+      <!--Optional:-->
+      <com:InhouseMail languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:InhouseMail>
+      <!--Optional:-->
+      <com:CityName languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:CityName>
+      <!--Optional:-->
+      <com:PostalZone languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:PostalZone>
+      <!--Optional:-->
+      <com:Country>
+        <!--Optional:-->
+        <com:Code listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.sample.org/per/maria" listSchemeURI="http://www.my.org/tempestatesque/sciret" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Code>
+      </com:Country>
+    </com:Address>
+  </com:DestinationParty>
+  <com:SellerParty>
+    <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.org/montis/omnipotens" schemeURI="http://www.test.org/premit/talia" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+    <!--Optional:-->
+    <com:BuyersID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.your.org/et/profundum" schemeURI="http://www.my.com/vasto/illi" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:BuyersID>
+    <!--Zero or more repetitions:-->
+    <com:PartyName>
+      <com:Name languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Name>
+    </com:PartyName>
+    <!--Zero or more repetitions:-->
+    <com:Address>
+      <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.corp.org/bella/tempestatesque" schemeURI="http://www.your.com/imposuit/e" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+      <!--Optional:-->
+      <com:Street languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Street>
+      <!--Optional:-->
+      <com:AdditionalStreet languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:AdditionalStreet>
+      <!--Optional:-->
+      <com:HouseNumber languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:HouseNumber>
+      <!--Optional:-->
+      <com:InhouseMail languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:InhouseMail>
+      <!--Optional:-->
+      <com:CityName languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:CityName>
+      <!--Optional:-->
+      <com:PostalZone languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:PostalZone>
+      <!--Optional:-->
+      <com:Country>
+        <!--Optional:-->
+        <com:Code listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.company.org/soror/rapidum" listSchemeURI="http://www.corp.com/transfixo/insuper" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Code>
+      </com:Country>
+    </com:Address>
+    <com:PartyTaxScheme>
+      <com:CompanyTaxID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.corp.gov/rates/arce" schemeURI="http://www.company.org/indignantes/ventis" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:CompanyTaxID>
+    </com:PartyTaxScheme>
+    <!--Optional:-->
+    <com:OrderContact>
+      <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.company.edu/secum/auras" schemeURI="http://www.test.org/magno/flammato" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+      <!--Optional:-->
+      <com:Name languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Name>
+      <!--Optional:-->
+      <com:Phone languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Phone>
+      <!--Optional:-->
+      <com:Fax languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Fax>
+      <!--Optional:-->
+      <com:E-Mail languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:E-Mail>
+    </com:OrderContact>
+    <!--Optional:-->
+    <com:ExtensibleContent>
+      <!--You may enter ANY elements at this point-->
+      <AnyElement/>
+    </com:ExtensibleContent>
+  </com:SellerParty>
+  <!--Optional:-->
+  <com:PaymentMeans>
+    <com:TypeCodeID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.corp.org/profundum/magno" schemeURI="http://www.your.org/luctantis/dare" UID="string" UIDRef="string" UIDRefs="string string" language="da">04</com:TypeCodeID>
+    <!--Optional:-->
+    <com:PaymentDueDate UID="string" UIDRef="string" UIDRefs="string" language="da">2002-02-11</com:PaymentDueDate>
+    <!--Optional:-->
+    <com:PaymentChannelCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.company.org/ignem/gente" listSchemeURI="http://www.any.com/molemque/quisquam" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:PaymentChannelCode>
+    <!--Optional:-->
+    <com:PaymentID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.my.edu/adorat/bella" schemeURI="http://www.my.com/animos/iovis" UID="string" UIDRef="string" UIDRefs="string string" language="da">200</com:PaymentID>
+    <!--Zero or more repetitions:-->
+    <com:JointPaymentID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.my.org/faciat/dea" schemeURI="http://www.your.com/claustra/imposuit" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:JointPaymentID>
+    <!--Optional:-->
+    <com:PayeeFinancialAccount>
+      <!--Optional:-->
+      <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.corp.com/sceptra/et" schemeURI="http://www.sample.com/ac/caelumque" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+      <!--Optional:-->
+      <com:TypeCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.corp.com/volutans/terras" listSchemeURI="http://www.test.com/et/regemque" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:TypeCode>
+      <com:FiBranch>
+        <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.company.com/austris/ignem" schemeURI="http://www.corp.com/regina/sedet" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+        <com:FinancialInstitution>
+          <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.org/mollitque/secum" schemeURI="http://www.company.org/ast/iaculata" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+          <!--Optional:-->
+          <com:Name languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Name>
+        </com:FinancialInstitution>
+      </com:FiBranch>
+    </com:PayeeFinancialAccount>
+    <!--Optional:-->
+    <com:PaymentAdvice>
+      <!--Optional:-->
+      <com:LongAdvice languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:LongAdvice>
+      <!--Optional:-->
+      <com:AccountToAccount>
+        <!--Optional:-->
+        <com:PayerNote languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:PayerNote>
+        <!--Optional:-->
+        <com:PayeeNote languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:PayeeNote>
+      </com:AccountToAccount>
+    </com:PaymentAdvice>
+    <!--Optional:-->
+    <com:ExtensibleContent>
+      <!--You may enter ANY elements at this point-->
+      <AnyElement/>
+    </com:ExtensibleContent>
+  </com:PaymentMeans>
+  <!--Optional:-->
+  <com:PaymentTerms>
+    <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.corp.com/hic/imposuit" schemeURI="http://www.sample.com/illi/pater" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+    <!--Optional:-->
+    <com:RateAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:RateAmount>
+    <!--Optional:-->
+    <com:SettlementDiscountRateNumeric UID="string" UIDRef="string" UIDRefs="string string" language="da">1000.00</com:SettlementDiscountRateNumeric>
+    <!--Optional:-->
+    <com:PenaltySurchargeRateNumeric UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:PenaltySurchargeRateNumeric>
+    <!--Optional:-->
+    <com:SettlementPeriod>
+      <!--Optional:-->
+      <com:EndDateTimeDate UID="string" UIDRef="string" UIDRefs="string" language="da">2019-07-08+02:00</com:EndDateTimeDate>
+    </com:SettlementPeriod>
+    <!--Optional:-->
+    <com:PenaltyPeriod>
+      <!--Optional:-->
+      <com:StartDateTime UID="string" UIDRef="string" UIDRefs="string string" language="da">2009-09-28T01:13:17+02:00</com:StartDateTime>
+    </com:PenaltyPeriod>
+  </com:PaymentTerms>
+  <!--Zero or more repetitions:-->
+  <com:AllowanceCharge>
+    <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.test.edu/caelumque/quippe" schemeURI="http://www.your.com/et/illi" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+    <com:ChargeIndicator UID="string" UIDRef="string" UIDRefs="string" language="da">false</com:ChargeIndicator>
+    <!--Optional:-->
+    <com:MultiplierReasonCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.corp.com/mollitque/scopuloque" listSchemeURI="http://www.any.org/circum/secum" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:MultiplierReasonCode>
+    <!--Optional:-->
+    <com:MultiplierFactorQuantity unitCode="string" unitCodeListID="Rec20" unitCodeListAgencyID="UN/CEFACT" unitCodeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string string" language="da">1000.00</com:MultiplierFactorQuantity>
+    <!--1 or more repetitions:-->
+    <com:AllowanceChargeAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:AllowanceChargeAmount>
+    <!--Optional:-->
+    <com:BuyersReferenceID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.my.com/sciret/ac" schemeURI="http://www.corp.edu/aeolus/flammas" UID="string" UIDRef="string" UIDRefs="string string" language="da" identificationSchemeName="EANC">string</com:BuyersReferenceID>
+  </com:AllowanceCharge>
+  <!--0 to 2 repetitions:-->
+  <com:TaxTotal>
+    <com:TaxTypeCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.sample.gov/sedet/ignem" listSchemeURI="http://www.my.org/vinclis/supplex" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:TaxTypeCode>
+    <com:TaxAmounts>
+      <com:TaxableAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:TaxableAmount>
+      <com:TaxAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string string" language="da">1000.00</com:TaxAmount>
+    </com:TaxAmounts>
+    <com:CategoryTotal>
+      <com:RateCategoryCodeID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.any.org/ventis/ventis" schemeURI="http://www.any.com/flammato/claustra" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:RateCategoryCodeID>
+      <com:RatePercentNumeric UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:RatePercentNumeric>
+      <com:TaxAmounts>
+        <com:TaxableAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:TaxableAmount>
+        <com:TaxAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:TaxAmount>
+      </com:TaxAmounts>
+    </com:CategoryTotal>
+  </com:TaxTotal>
+  <!--Zero or more repetitions:-->
+  <com:LegalTotals>
+    <com:LineExtensionTotalAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:LineExtensionTotalAmount>
+    <com:ToBePaidTotalAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string string" language="da">1000.00</com:ToBePaidTotalAmount>
+  </com:LegalTotals>
+  <!--Zero or more repetitions:-->
+  <com:InvoiceLine>
+    <!--Optional:-->
+    <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.my.gov/laxas/qui" schemeURI="http://www.any.org/speluncis/abdidit" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+    <com:InvoicedQuantity unitCode="string" unitCodeListID="Rec20" unitCodeListAgencyID="UN/CEFACT" unitCodeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string string" language="da">1000.00</com:InvoicedQuantity>
+    <com:LineExtensionAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:LineExtensionAmount>
+    <!--Optional:-->
+    <com:Note languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Note>
+    <!--Optional:-->
+    <com:ReferencedOrderLine>
+      <com:BuyersID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.my.gov/animos/aut" schemeURI="http://www.my.gov/ventos/aris" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:BuyersID>
+      <com:SellersID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.any.com/venit/verrantque" schemeURI="http://www.company.com/quisquam/per" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:SellersID>
+      <!--Optional:-->
+      <com:DestinationParty>
+        <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.company.com/montis/ego" schemeURI="http://www.my.org/secum/ventos" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+        <!--Optional:-->
+        <com:AccountCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.your.org/et/carcere" listSchemeURI="http://www.any.gov/sedet/iras" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:AccountCode>
+        <!--Zero or more repetitions:-->
+        <com:PartyName>
+          <com:Name languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Name>
+        </com:PartyName>
+        <!--Zero or more repetitions:-->
+        <com:Contact>
+          <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.com/quisquam/divum" schemeURI="http://www.your.org/montis/et" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+          <!--Optional:-->
+          <com:Name languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Name>
+          <!--Optional:-->
+          <com:Phone languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Phone>
+          <!--Optional:-->
+          <com:Fax languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Fax>
+          <!--Optional:-->
+          <com:E-Mail languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:E-Mail>
+        </com:Contact>
+        <!--Zero or more repetitions:-->
+        <com:Language>
+          <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.gov/imponet/nubibus" schemeURI="http://www.corp.org/infixit/et" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+        </com:Language>
+        <!--Zero or more repetitions:-->
+        <com:Address>
+          <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.company.org/claustra/patriam" schemeURI="http://www.any.org/magno/et" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+          <!--Optional:-->
+          <com:Street languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Street>
+          <!--Optional:-->
+          <com:AdditionalStreet languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:AdditionalStreet>
+          <!--Optional:-->
+          <com:HouseNumber languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:HouseNumber>
+          <!--Optional:-->
+          <com:InhouseMail languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:InhouseMail>
+          <!--Optional:-->
+          <com:CityName languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:CityName>
+          <!--Optional:-->
+          <com:PostalZone languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:PostalZone>
+          <!--Optional:-->
+          <com:Country>
+            <!--Optional:-->
+            <com:Code listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.your.com/annos/regina" listSchemeURI="http://www.my.org/annos/corripuit" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Code>
+          </com:Country>
+        </com:Address>
+      </com:DestinationParty>
+      <com:Item>
+        <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.test.com/infixit/speluncis" schemeURI="http://www.test.com/montis/altos" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+        <!--Optional:-->
+        <com:Description languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Description>
+        <!--Optional:-->
+        <com:BuyersItemIdentification>
+          <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.company.com/animos/altos" schemeURI="http://www.test.org/tempestatesque/iussus" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+          <!--Optional:-->
+          <com:Description languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Description>
+        </com:BuyersItemIdentification>
+        <!--Optional:-->
+        <com:SellersItemIdentification>
+          <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.test.org/flammas/gente" schemeURI="http://www.sample.org/cum/scopuloque" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+          <!--Optional:-->
+          <com:Description languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Description>
+        </com:SellersItemIdentification>
+        <!--Optional:-->
+        <com:ManufacturersItemIdentification>
+          <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.company.org/iras/ni" schemeURI="http://www.test.com/cum/speluncis" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+          <!--Optional:-->
+          <com:Description languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Description>
+        </com:ManufacturersItemIdentification>
+        <!--Optional:-->
+        <com:StandardItemIdentification>
+          <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.your.org/transfixo/ni" schemeURI="http://www.company.gov/cum/faciat" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+          <!--Optional:-->
+          <com:Description languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Description>
+        </com:StandardItemIdentification>
+        <!--Optional:-->
+        <com:CatalogueItemIdentification>
+          <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.my.com/terras/et" schemeURI="http://www.corp.edu/sonoras/feta" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+          <!--Optional:-->
+          <com:Description languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Description>
+        </com:CatalogueItemIdentification>
+        <!--Optional:-->
+        <com:ReferencedCatalogue>
+          <com:CatalogueID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.org/imposuit/iras" schemeURI="http://www.test.com/maria/dea" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:CatalogueID>
+        </com:ReferencedCatalogue>
+        <!--Optional:-->
+        <com:CommodityClassification>
+          <!--Optional:-->
+          <com:CommodityCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.test.gov/aeolus/disiecitque" listSchemeURI="http://www.company.com/sciret/aut" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:CommodityCode>
+        </com:CommodityClassification>
+        <!--Zero or more repetitions:-->
+        <com:Tax>
+          <com:RateCategoryCodeID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.org/flammato/ignem" schemeURI="http://www.your.gov/fremunt/evertitque" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:RateCategoryCodeID>
+          <com:TypeCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.your.com/foedere/sedet" listSchemeURI="http://www.corp.com/vasto/coniunx" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:TypeCode>
+          <!--Optional:-->
+          <com:RatePercentNumeric UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:RatePercentNumeric>
+          <!--Optional:-->
+          <com:TaxScheme>
+            <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.test.gov/adorat/et" schemeURI="http://www.test.org/iunonis/rapidi" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+          </com:TaxScheme>
+        </com:Tax>
+        <!--Optional:-->
+        <com:BasePrice>
+          <com:PriceAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string string" language="da">1000.00</com:PriceAmount>
+          <!--Optional:-->
+          <com:BaseQuantity unitCode="string" unitCodeListID="Rec20" unitCodeListAgencyID="UN/CEFACT" unitCodeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:BaseQuantity>
+        </com:BasePrice>
+      </com:Item>
+      <com:DeliveryRequirement>
+        <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.any.org/ferant/patriam" schemeURI="http://www.any.org/incedo/exspirantem" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+        <!--Zero or more repetitions:-->
+        <com:DeliverySchedule>
+          <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.com/aequora/rapidi" schemeURI="http://www.your.org/supplex/ipsa" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+          <!--Optional:-->
+          <com:RequestedDeliveryDateTime UID="string" UIDRef="string" UIDRefs="string" language="da">2002-05-21T12:44:27</com:RequestedDeliveryDateTime>
+        </com:DeliverySchedule>
+      </com:DeliveryRequirement>
+      <!--Zero or more repetitions:-->
+      <com:AllowanceCharge>
+        <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.com/ignem/certo" schemeURI="http://www.company.com/et/animos" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+        <com:ChargeIndicator UID="string" UIDRef="string" UIDRefs="string string" language="da">true</com:ChargeIndicator>
+        <!--Optional:-->
+        <com:MultiplierReasonCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.corp.org/profundum/corde" listSchemeURI="http://www.test.org/ventos/circum" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:MultiplierReasonCode>
+        <!--Optional:-->
+        <com:MultiplierFactorQuantity unitCode="string" unitCodeListID="Rec20" unitCodeListAgencyID="UN/CEFACT" unitCodeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:MultiplierFactorQuantity>
+        <!--1 or more repetitions:-->
+        <com:AllowanceChargeAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string string" language="da">1000.00</com:AllowanceChargeAmount>
+        <!--Optional:-->
+        <com:BuyersReferenceID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.com/quae/ventos" schemeURI="http://www.my.org/circum/talia" UID="string" UIDRef="string" UIDRefs="string string" language="da" identificationSchemeName="EANC">string</com:BuyersReferenceID>
+      </com:AllowanceCharge>
+    </com:ReferencedOrderLine>
+    <!--Zero or more repetitions:-->
+    <com:AllowanceCharge>
+      <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.corp.org/imperio/ni" schemeURI="http://www.corp.com/illi/aeolus" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+      <com:ChargeIndicator UID="string" UIDRef="string" UIDRefs="string" language="da">true</com:ChargeIndicator>
+      <!--Optional:-->
+      <com:MultiplierReasonCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.sample.org/habenas/quisquam" listSchemeURI="http://www.your.com/iovis/rates" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:MultiplierReasonCode>
+      <!--Optional:-->
+      <com:MultiplierFactorQuantity unitCode="string" unitCodeListID="Rec20" unitCodeListAgencyID="UN/CEFACT" unitCodeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:MultiplierFactorQuantity>
+      <!--1 or more repetitions:-->
+      <com:AllowanceChargeAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string string" language="da">1000.00</com:AllowanceChargeAmount>
+      <!--Optional:-->
+      <com:BuyersReferenceID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.your.com/supplex/dedit" schemeURI="http://www.any.edu/auras/patriam" UID="string" UIDRef="string" UIDRefs="string" language="da" identificationSchemeName="EANC">string</com:BuyersReferenceID>
+    </com:AllowanceCharge>
+    <com:Item>
+      <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.any.org/tenens/altos" schemeURI="http://www.my.com/exspirantem/ni" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+      <!--Optional:-->
+      <com:Description languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Description>
+      <!--Optional:-->
+      <com:BuyersItemIdentification>
+        <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.test.org/furentibus/illum" schemeURI="http://www.sample.com/claustra/e" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+        <!--Optional:-->
+        <com:Description languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Description>
+      </com:BuyersItemIdentification>
+      <!--Optional:-->
+      <com:SellersItemIdentification>
+        <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.your.com/gente/ast" schemeURI="http://www.any.org/et/regina" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+        <!--Optional:-->
+        <com:Description languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Description>
+      </com:SellersItemIdentification>
+      <!--Optional:-->
+      <com:ManufacturersItemIdentification>
+        <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.corp.org/celsa/pater" schemeURI="http://www.any.com/et/sed" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+        <!--Optional:-->
+        <com:Description languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Description>
+      </com:ManufacturersItemIdentification>
+      <!--Optional:-->
+      <com:StandardItemIdentification>
+        <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.test.com/rapidum/adorat" schemeURI="http://www.company.com/aris/ipsa" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+        <!--Optional:-->
+        <com:Description languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Description>
+      </com:StandardItemIdentification>
+      <!--Optional:-->
+      <com:CatalogueItemIdentification>
+        <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.corp.com/altos/carcere" schemeURI="http://www.sample.com/in/molemque" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ID>
+        <!--Optional:-->
+        <com:Description languageID="da" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:Description>
+      </com:CatalogueItemIdentification>
+      <!--Optional:-->
+      <com:ReferencedCatalogue>
+        <com:CatalogueID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.org/ventis/ac" schemeURI="http://www.corp.com/rapidum/iovis" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:CatalogueID>
+      </com:ReferencedCatalogue>
+      <!--Optional:-->
+      <com:CommodityClassification>
+        <!--Optional:-->
+        <com:CommodityCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.corp.com/abdidit/infixit" listSchemeURI="http://www.my.com/illi/aequora" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:CommodityCode>
+      </com:CommodityClassification>
+      <!--Zero or more repetitions:-->
+      <com:Tax>
+        <com:RateCategoryCodeID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.company.com/pater/premit" schemeURI="http://www.any.com/iovis/omnipotens" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:RateCategoryCodeID>
+        <com:TypeCode listID="string" listAgencyID="string" listVersionID="string" listAgencySchemeID="string" listAgencySchemeAgencyID="string" name="string" languageID="string" listURI="http://www.your.com/una/abdidit" listSchemeURI="http://www.my.com/patriam/caelumque" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:TypeCode>
+        <!--Optional:-->
+        <com:RatePercentNumeric UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:RatePercentNumeric>
+        <!--Optional:-->
+        <com:TaxScheme>
+          <com:ID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.org/infixit/aequora" schemeURI="http://www.company.org/supplex/iovis" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:ID>
+        </com:TaxScheme>
+      </com:Tax>
+      <!--Optional:-->
+      <com:BasePrice>
+        <com:PriceAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:PriceAmount>
+        <!--Optional:-->
+        <com:BaseQuantity unitCode="string" unitCodeListID="Rec20" unitCodeListAgencyID="UN/CEFACT" unitCodeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:BaseQuantity>
+      </com:BasePrice>
+    </com:Item>
+    <com:BasePrice>
+      <com:PriceAmount currencyID="string" codeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string" language="da">1000.00</com:PriceAmount>
+      <!--Optional:-->
+      <com:BaseQuantity unitCode="string" unitCodeListID="Rec20" unitCodeListAgencyID="UN/CEFACT" unitCodeListVersionID="2002" UID="string" UIDRef="string" UIDRefs="string string" language="da">1000.00</com:BaseQuantity>
+    </com:BasePrice>
+    <!--Optional:-->
+    <com:ExtensibleContent>
+      <!--You may enter ANY elements at this point-->
+      <AnyElement/>
+    </com:ExtensibleContent>
+  </com:InvoiceLine>
+  <!--Optional:-->
+  <com:ValidatedSignature>
+    <com:SignatureID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.sample.org/turbine/abdidit" schemeURI="http://www.any.com/ast/illi" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:SignatureID>
+    <com:ValidatorID schemeID="string" schemeAgencyID="string" schemeVersionID="string" schemeAgencySchemeID="string" schemeAgencySchemeAgencyID="string" schemeDataURI="http://www.company.org/rates/praeterea" schemeURI="http://www.my.com/circum/divum" UID="string" UIDRef="string" UIDRefs="string string" language="da">string</com:ValidatorID>
+    <com:ValidationDateTime UID="string" UIDRef="string" UIDRefs="string string" language="da">2009-05-01T17:08:22+02:00</com:ValidationDateTime>
+    <!--Optional:-->
+    <com:Signature languageID="da" UID="string" UIDRef="string" UIDRefs="string" language="da">string</com:Signature>
+  </com:ValidatedSignature>
+  <!--Optional:-->
+  <com:ExtensibleContent>
+    <!--You may enter ANY elements at this point-->
+    <AnyElement/>
+  </com:ExtensibleContent>
+</pie:Invoice>

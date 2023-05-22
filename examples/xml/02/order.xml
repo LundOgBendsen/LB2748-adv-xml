@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ordre>
+    <Nummer>123</Nummer>
+    <Dato>2021/01/01</Dato>
+    <Kunde>
+        <Cvr>25902661</Cvr>
+        <Navn>L&amp;B</Navn>
+    </Kunde>
+    <OrdreLinie>
+        <Antal>3</Antal>
+        <Produkt>
+            <Navn>10 mm drillbor</Navn>
+            <Leverandør>
+                <Navn>Bosch</Navn>
+                <Adresse>
+                    <Vej>Vænget 3</Vej>
+                    <By>2100 Kbh Ø</By>
+                </Adresse>
+                <Adresse>
+                    <Vej>Svinget 9</Vej>
+                    <By>3400 Hillerød</By>
+                </Adresse>
+            </Leverandør>
+        </Produkt>
+    </OrdreLinie>
+    <OrdreLinie>
+        <Antal>1</Antal>
+        <Produkt>
+            <Navn>Sav</Navn>
+            <Leverandør>
+                <Navn>Sanvik</Navn>
+                <Adresse>
+                    <Vej>Pile alle 4</Vej>
+                    <By>2000 Frb</By>
+                </Adresse>
+                <Adresse>
+                    <Vej>Svinget 9</Vej>
+                    <By>3400 Hillerød</By>
+                </Adresse>
+            </Leverandør>
+        </Produkt>
+    </OrdreLinie>
+</Ordre>

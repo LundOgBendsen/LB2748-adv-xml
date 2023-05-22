@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.djug.dk/basis">
+    <simpleType name="String11Type">
+        <restriction base="string">
+              <maxLength value="11"/>
+              <minLength value="11"/>
+        </restriction>
+    </simpleType>
+    
+</schema>

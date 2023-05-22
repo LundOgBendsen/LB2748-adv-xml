@@ -1,0 +1,40 @@
+<product xmlns="http://lundogbendsen.dk/schemas/2021/08/02/Product"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="ttp://lundogbendsen.dk/schemas/2021/08/02/Product ./product.xsd">
+  <name>Ford Focus</name>
+  <price>70000</price>
+  <components>
+    <product>
+      <name>motor</name>
+      <price>40000</price>
+      <components>
+        <product>
+          <name>stempel</name>
+          <price>1000</price>
+        </product>
+        <product>
+          <name>cylinder</name>
+          <price>3000</price>
+        </product>
+        <product>
+          <name>computer</name>
+          <price>2300</price>
+          <components>
+            <product>
+              <name>cpu</name>
+              <price>2000</price>
+            </product>
+            <product>
+              <name>motherboard</name>
+              <price>300</price>
+            </product>
+          </components>
+        </product>
+      </components>
+    </product>
+    <product>
+      <name>karosseri</name>
+      <price>30000</price>
+    </product>
+  </components>
+</product>

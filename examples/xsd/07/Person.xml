@@ -1,0 +1,12 @@
+<per:Person xmlns:per="http://www.djug.dk/person"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.djug.dk/person ./PersonType.xsd" >
+  <Name>Luke</Name>
+  <CprNo>121212-1212</CprNo>
+  <Address>
+    <Street>Stargate 1</Street>
+    <StreetNo>12121ab</StreetNo>
+    <Zip>1212</Zip>
+    <City>Hollywood</City>
+  </Address>
+</per:Person>

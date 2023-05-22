@@ -1,0 +1,14 @@
+<text xmlns="http://lundogbendsen.dk/schemas/2021/08/02/Text"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://lundogbendsen.dk/schemas/2021/08/02/Text ./text.xsd">
+  <b>Dagbog</b>
+  <b>1-1-2020</b>
+  <p>En glad dag</p>
+  <p>Her er et digt:</p>
+  <i>roser er røde</i>
+  <i>violer er blå</i>
+  <i>kærlighed...</i>
+  <i>..er svær at få</i>
+  <p>Lad mig understrege</p>
+  <u>at dette er mit første digt!</u>
+</text>

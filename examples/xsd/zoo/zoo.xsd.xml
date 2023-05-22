@@ -1,0 +1,19 @@
+<dyr:minZoo xmlns:dyr="http://kkzoo.dk/schemas/dyr">
+  <!--You have a CHOICE of the next 2 items at this level-->
+  <!--Zero or more repetitions:-->
+  <dyr:bygning no="201">
+    <!--Zero or more repetitions:-->
+    <dyr:bur no="201" type="Outside">
+      <!--Zero or more repetitions:-->
+      <dyr:dyr>
+        <dyr:art>string</dyr:art>
+        <dyr:navn>string</dyr:navn>
+      </dyr:dyr>
+    </dyr:bur>
+  </dyr:bygning>
+  <!--Zero or more repetitions:-->
+  <dyr:dyr>
+    <dyr:art>string</dyr:art>
+    <dyr:navn>string</dyr:navn>
+  </dyr:dyr>
+</dyr:minZoo>

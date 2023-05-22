@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.djug.dk/person"
+        xmlns:tns="http://www.djug.dk/person" xmlns:basis="http://www.djug.dk/basis">
+
+    <import namespace="http://www.djug.dk/basis" schemaLocation="./String11Type.xsd" />
+
+    <simpleType name="CprType">
+        <restriction base="basis:String11Type">
+            <pattern value="\d{6}-\d{4}"></pattern>
+        </restriction>
+    </simpleType>
+</schema>

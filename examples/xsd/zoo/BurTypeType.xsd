@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://kkzoo.dk/schemas/dyr"
+        xmlns:minns="http://kkzoo.dk/schemas/dyr"
+        elementFormDefault="qualified">
+
+    <simpleType name="BurTypeType">
+        <restriction base="string">
+            <enumeration value="Inside"/>
+            <enumeration value="Outside"/>
+        </restriction>
+    </simpleType>
+</schema>

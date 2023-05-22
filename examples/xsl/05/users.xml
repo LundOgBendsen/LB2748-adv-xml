@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--a xml-document with a list of users with emails-->
+<users>
+    <user>
+        <name>John Doe</name>
+        <email>
+            <address type="mail">
+                <localPart>john</localPart>
+                <domain>example.org</domain>
+            </address>
+        </email>
+    </user>
+    <user>
+        <name>Jane Doe</name>
+        <email>
+            <address>
+                <localPart>jane</localPart>
+                <domain>example.org</domain>
+            </address>
+        </email>
+    </user>
+</users>

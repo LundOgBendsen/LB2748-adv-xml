@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+
+<gesmes:Envelope xmlns:gesmes="http://www.gesmes.org/xml/2002-08-01" xmlns="http://www.ecb.int/vocabulary/2002-08-01/eurofxref">
+  <gesmes:subject>Aktuelle valutakurser</gesmes:subject>
+  <gesmes:Sender>
+    <gesmes:name>Danmarks Nationalbank</gesmes:name>
+  </gesmes:Sender>
+  <Cube>
+    <Cube time="2021-08-04">
+      <Cube currency="AUD" rate="464,74" name="Australske dollar" />
+      <Cube currency="BGN" rate="380,24" name="Bulgarske lev" />
+      <Cube currency="BRL" rate="120,71" name="Brasilianske real" />
+      <Cube currency="CAD" rate="499,78" name="Canadiske dollar" />
+      <Cube currency="CHF" rate="693,14" name="Schweiziske franc" />
+      <Cube currency="CNY" rate="97,04" name="Kinesiske Yuan renminbi" />
+      <Cube currency="CZK" rate="29,23" name="Tjekkiske koruna" />
+      <Cube currency="EUR" rate="743,67" name="Euro" />
+      <Cube currency="GBP" rate="873,33" name="Britiske pund" />
+      <Cube currency="HKD" rate="80,63" name="Hongkong dollar" />
+      <Cube currency="HRK" rate="99,14" name="Kroatiske kuna" />
+      <Cube currency="HUF" rate="2,099" name="Ungarske forint" />
+      <Cube currency="IDR" rate="0,0438" name="Indonesiske rupiah" />
+      <Cube currency="ILS" rate="195,52" name="Israelske shekel" />
+      <Cube currency="INR" rate="8,45" name="Indiske rupee" />
+      <Cube currency="ISK" rate="5,038" name="Islandske kroner *" />
+      <Cube currency="JPY" rate="5,7511" name="Japanske yen" />
+      <Cube currency="KRW" rate="0,5487" name="Sydkoreanske won" />
+      <Cube currency="MXN" rate="31,57" name="Mexicanske peso" />
+      <Cube currency="MYR" rate="148,51" name="Malaysiske ringgit" />
+      <Cube currency="NOK" rate="71,13" name="Norske kroner" />
+      <Cube currency="NZD" rate="443,08" name="New Zealandske dollar" />
+      <Cube currency="PHP" rate="12,61" name="Filippinske peso" />
+      <Cube currency="PLN" rate="163,67" name="Polske zloty" />
+      <Cube currency="RON" rate="151,20" name="Rumænske lei" />
+      <Cube currency="RUB" rate="8,60" name="Russiske rubel" />
+      <Cube currency="SEK" rate="72,93" name="Svenske kroner" />
+      <Cube currency="SGD" rate="464,79" name="Singapore dollar" />
+      <Cube currency="THB" rate="18,94" name="Thailandske baht" />
+      <Cube currency="TRY" rate="74,28" name="Tyrkiske lira" />
+      <Cube currency="USD" rate="626,99" name="Amerikanske dollar" />
+      <Cube currency="XDR" rate="895,11" name="SDR (Beregnet **)" />
+      <Cube currency="ZAR" rate="43,95" name="Sydafrikanske rand" />
+    </Cube>
+    <Cube time="2021-08-03">
+      <Cube currency="AUD" rate="462,36" name="Australske dollar" />
+      <Cube currency="BGN" rate="380,28" name="Bulgarske lev" />
+      <Cube currency="BRL" rate="120,37" name="Brasilianske real" />
+      <Cube currency="CAD" rate="500,04" name="Canadiske dollar" />
+      <Cube currency="CHF" rate="692,84" name="Schweiziske franc" />
+      <Cube currency="CNY" rate="96,82" name="Kinesiske Yuan renminbi" />
+      <Cube currency="CZK" rate="29,18" name="Tjekkiske koruna" />
+      <Cube currency="EUR" rate="743,76" name="Euro" />
+      <Cube currency="GBP" rate="871,37" name="Britiske pund" />
+      <Cube currency="HKD" rate="80,47" name="Hongkong dollar" />
+      <Cube currency="HRK" rate="99,16" name="Kroatiske kuna" />
+      <Cube currency="HUF" rate="2,098" name="Ungarske forint" />
+      <Cube currency="IDR" rate="0,0438" name="Indonesiske rupiah" />
+      <Cube currency="ILS" rate="194,65" name="Israelske shekel" />
+      <Cube currency="INR" rate="8,43" name="Indiske rupee" />
+      <Cube currency="ISK" rate="5,073" name="Islandske kroner *" />
+      <Cube currency="JPY" rate="5,7345" name="Japanske yen" />
+      <Cube currency="KRW" rate="0,5450" name="Sydkoreanske won" />
+      <Cube currency="MXN" rate="31,52" name="Mexicanske peso" />
+      <Cube currency="MYR" rate="148,27" name="Malaysiske ringgit" />
+      <Cube currency="NOK" rate="71,28" name="Norske kroner" />
+      <Cube currency="NZD" rate="438,72" name="New Zealandske dollar" />
+      <Cube currency="PHP" rate="12,62" name="Filippinske peso" />
+      <Cube currency="PLN" rate="163,24" name="Polske zloty" />
+      <Cube currency="RON" rate="151,22" name="Rumænske lei" />
+      <Cube currency="RUB" rate="8,58" name="Russiske rubel" />
+      <Cube currency="SEK" rate="72,89" name="Svenske kroner" />
+      <Cube currency="SGD" rate="463,23" name="Singapore dollar" />
+      <Cube currency="THB" rate="18,95" name="Thailandske baht" />
+      <Cube currency="TRY" rate="74,69" name="Tyrkiske lira" />
+      <Cube currency="USD" rate="625,80" name="Amerikanske dollar" />
+      <Cube currency="XDR" rate="893,83" name="SDR (Beregnet **)" />
+      <Cube currency="ZAR" rate="43,49" name="Sydafrikanske rand" />
+    </Cube>
+    <Cube time="2021-08-02">
+      <Cube currency="AUD" rate="460,82" name="Australske dollar" />
+      <Cube currency="BGN" rate="380,31" name="Bulgarske lev" />
+      <Cube currency="BRL" rate="121,03" name="Brasilianske real" />
+      <Cube currency="CAD" rate="502,03" name="Canadiske dollar" />
+      <Cube currency="CHF" rate="691,21" name="Schweiziske franc" />
+      <Cube currency="CNY" rate="96,84" name="Kinesiske Yuan renminbi" />
+      <Cube currency="CZK" rate="29,20" name="Tjekkiske koruna" />
+      <Cube currency="EUR" rate="743,81" name="Euro" />
+      <Cube currency="GBP" rate="869,26" name="Britiske pund" />
+      <Cube currency="HKD" rate="80,50" name="Hongkong dollar" />
+      <Cube currency="HRK" rate="99,22" name="Kroatiske kuna" />
+      <Cube currency="HUF" rate="2,089" name="Ungarske forint" />
+      <Cube currency="IDR" rate="0,0435" name="Indonesiske rupiah" />
+      <Cube currency="ILS" rate="194,10" name="Israelske shekel" />
+      <Cube currency="INR" rate="8,41" name="Indiske rupee" />
+      <Cube currency="ISK" rate="5,067" name="Islandske kroner *" />
+      <Cube currency="JPY" rate="5,7141" name="Japanske yen" />
+      <Cube currency="KRW" rate="0,5439" name="Sydkoreanske won" />
+      <Cube currency="MXN" rate="31,57" name="Mexicanske peso" />
+      <Cube currency="MYR" rate="148,12" name="Malaysiske ringgit" />
+      <Cube currency="NOK" rate="71,17" name="Norske kroner" />
+      <Cube currency="NZD" rate="436,48" name="New Zealandske dollar" />
+      <Cube currency="PHP" rate="12,56" name="Filippinske peso" />
+      <Cube currency="PLN" rate="163,25" name="Polske zloty" />
+      <Cube currency="RON" rate="151,24" name="Rumænske lei" />
+      <Cube currency="RUB" rate="8,61" name="Russiske rubel" />
+      <Cube currency="SEK" rate="72,99" name="Svenske kroner" />
+      <Cube currency="SGD" rate="462,89" name="Singapore dollar" />
+      <Cube currency="THB" rate="19,00" name="Thailandske baht" />
+      <Cube currency="TRY" rate="75,00" name="Tyrkiske lira" />
+      <Cube currency="USD" rate="625,79" name="Amerikanske dollar" />
+      <Cube currency="XDR" rate="893,39" name="SDR (Beregnet **)" />
+      <Cube currency="ZAR" rate="43,50" name="Sydafrikanske rand" />
+    </Cube>
+    <Cube time="2021-07-30">
+      <Cube currency="AUD" rate="461,04" name="Australske dollar" />
+      <Cube currency="BGN" rate="380,30" name="Bulgarske lev" />
+      <Cube currency="BRL" rate="122,50" name="Brasilianske real" />
+      <Cube currency="CAD" rate="502,87" name="Canadiske dollar" />
+      <Cube currency="CHF" rate="690,55" name="Schweiziske franc" />
+      <Cube currency="CNY" rate="96,80" name="Kinesiske Yuan renminbi" />
+      <Cube currency="CZK" rate="29,17" name="Tjekkiske koruna" />
+      <Cube currency="EUR" rate="743,79" name="Euro" />
+      <Cube currency="GBP" rate="873,61" name="Britiske pund" />
+      <Cube currency="HKD" rate="80,45" name="Hongkong dollar" />
+      <Cube currency="HRK" rate="99,17" name="Kroatiske kuna" />
+      <Cube currency="HUF" rate="2,082" name="Ungarske forint" />
+      <Cube currency="IDR" rate="0,0433" name="Indonesiske rupiah" />
+      <Cube currency="ILS" rate="193,68" name="Israelske shekel" />
+      <Cube currency="INR" rate="8,41" name="Indiske rupee" />
+      <Cube currency="ISK" rate="5,074" name="Islandske kroner *" />
+      <Cube currency="JPY" rate="5,7043" name="Japanske yen" />
+      <Cube currency="KRW" rate="0,5434" name="Sydkoreanske won" />
+      <Cube currency="MXN" rate="31,48" name="Mexicanske peso" />
+      <Cube currency="MYR" rate="148,22" name="Malaysiske ringgit" />
+      <Cube currency="NOK" rate="71,24" name="Norske kroner" />
+      <Cube currency="NZD" rate="437,78" name="New Zealandske dollar" />
+      <Cube currency="PHP" rate="12,51" name="Filippinske peso" />
+      <Cube currency="PLN" rate="162,98" name="Polske zloty" />
+      <Cube currency="RON" rate="151,17" name="Rumænske lei" />
+      <Cube currency="RUB" rate="8,58" name="Russiske rubel" />
+      <Cube currency="SEK" rate="73,02" name="Svenske kroner" />
+      <Cube currency="SGD" rate="462,27" name="Singapore dollar" />
+      <Cube currency="THB" rate="19,02" name="Thailandske baht" />
+      <Cube currency="TRY" rate="74,39" name="Tyrkiske lira" />
+      <Cube currency="USD" rate="625,51" name="Amerikanske dollar" />
+      <Cube currency="XDR" rate="893,40" name="SDR (Beregnet **)" />
+      <Cube currency="ZAR" rate="42,92" name="Sydafrikanske rand" />
+    </Cube>
+    <Cube time="2021-07-29">
+      <Cube currency="AUD" rate="463,06" name="Australske dollar" />
+      <Cube currency="BGN" rate="380,28" name="Bulgarske lev" />
+      <Cube currency="BRL" rate="123,10" name="Brasilianske real" />
+      <Cube currency="CAD" rate="502,27" name="Canadiske dollar" />
+      <Cube currency="CHF" rate="689,43" name="Schweiziske franc" />
+      <Cube currency="CNY" rate="96,98" name="Kinesiske Yuan renminbi" />
+      <Cube currency="CZK" rate="29,16" name="Tjekkiske koruna" />
+      <Cube currency="EUR" rate="743,76" name="Euro" />
+      <Cube currency="GBP" rate="874,19" name="Britiske pund" />
+      <Cube currency="HKD" rate="80,61" name="Hongkong dollar" />
+      <Cube currency="HRK" rate="99,06" name="Kroatiske kuna" />
+      <Cube currency="HUF" rate="2,077" name="Ungarske forint" />
+      <Cube currency="IDR" rate="0,0433" name="Indonesiske rupiah" />
+      <Cube currency="ILS" rate="193,08" name="Israelske shekel" />
+      <Cube currency="INR" rate="8,44" name="Indiske rupee" />
+      <Cube currency="ISK" rate="5,053" name="Islandske kroner *" />
+      <Cube currency="JPY" rate="5,7032" name="Japanske yen" />
+      <Cube currency="KRW" rate="0,5469" name="Sydkoreanske won" />
+      <Cube currency="MXN" rate="31,56" name="Mexicanske peso" />
+      <Cube currency="MYR" rate="147,79" name="Malaysiske ringgit" />
+      <Cube currency="NOK" rate="71,52" name="Norske kroner" />
+      <Cube currency="NZD" rate="437,87" name="New Zealandske dollar" />
+      <Cube currency="PHP" rate="12,45" name="Filippinske peso" />
+      <Cube currency="PLN" rate="162,46" name="Polske zloty" />
+      <Cube currency="RON" rate="151,12" name="Rumænske lei" />
+      <Cube currency="RUB" rate="8,55" name="Russiske rubel" />
+      <Cube currency="SEK" rate="73,15" name="Svenske kroner" />
+      <Cube currency="SGD" rate="462,77" name="Singapore dollar" />
+      <Cube currency="THB" rate="19,07" name="Thailandske baht" />
+      <Cube currency="TRY" rate="73,75" name="Tyrkiske lira" />
+      <Cube currency="USD" rate="626,43" name="Amerikanske dollar" />
+      <Cube currency="XDR" rate="894,18" name="SDR (Beregnet **)" />
+      <Cube currency="ZAR" rate="42,96" name="Sydafrikanske rand" />
+    </Cube>
+  </Cube>
+</gesmes:Envelope>

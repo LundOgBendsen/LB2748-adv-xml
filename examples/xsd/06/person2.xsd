@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+        targetNamespace="http://lundogbendsen.dk/schemas/2021/08/02/Person"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+        xmlns="http://lundogbendsen.dk/schemas/2021/08/02/Person">
+    <xsd:element name="person" type="PersonType"/>
+
+    <xsd:complexType name="PersonType">
+        <xsd:sequence>
+            <xsd:element name="navn" type="xsd:string"/>
+            <xsd:element name="friends">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element ref="person"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute ref="id"/>
+    </xsd:complexType>
+
+    <xsd:attribute name="id" type="xsd:string"/>
+</xsd:schema>

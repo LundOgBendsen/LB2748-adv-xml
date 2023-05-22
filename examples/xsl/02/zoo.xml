@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xml2html.xsl"?>
+
+<!--her kan du lave din zoologiske have -->
+
+<minZoo>
+    <dyr>
+        <art>Påfugl</art>
+        <navn>Mugge</navn>
+    </dyr>
+    <bygning no="1">
+        <bur>
+            <dyr>
+                <art>bille</art>
+                <navn>bølle</navn>
+            </dyr>
+        </bur>
+    </bygning>
+    <bygning no="2">
+        <bur no="11" type="Outside">
+            <dyr>
+                <art>Alligator</art>
+                <navn>Alice</navn>
+            </dyr>
+            <dyr>
+                <art>Hippo</art>
+                <navn>Karen</navn>
+            </dyr>
+        </bur>
+        <bur no="1" type="Inside">
+            <dyr>
+                <art>Python</art>
+                <navn>Palle</navn>
+            </dyr>
+        </bur>
+    </bygning>
+    <bygning no="3">
+        <bur no="2" type="Outside">
+            <dyr>
+                <art>Parrot</art>
+                <navn>Polly</navn>
+            </dyr>
+            <dyr>
+                <art>Elephant</art>
+                <navn>Egon</navn>
+            </dyr>
+        </bur>
+    </bygning>
+    <dyr>
+        <art>Påfugl</art>
+        <navn>Polly</navn>
+    </dyr>
+
+</minZoo>

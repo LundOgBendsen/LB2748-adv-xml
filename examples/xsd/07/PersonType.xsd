@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.djug.dk/person"
+        xmlns:tns="http://www.djug.dk/person" xmlns:adr="http://www.djug.dk/address">
+    <import namespace="http://www.djug.dk/address" schemaLocation="./AddressType.xsd" />
+    <include schemaLocation="./CprType.xsd" />
+
+    <element name="Person" type="tns:PersonType"/>
+
+    <complexType name="PersonType">
+        <sequence>
+            <element name="Name" type="string" />
+            <element name="CprNo" type="tns:CprType" />
+            <element name="Address" type="adr:AddressType" />
+        </sequence>
+    </complexType>
+</schema>

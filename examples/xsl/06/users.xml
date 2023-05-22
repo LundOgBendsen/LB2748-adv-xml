@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><users xmlns:o="http://lundogbendsen.dk/schemas/2021/08/02/persons">
+    <user name="Rudi Rüssel">
+        <address street="An der Viehtränke 24" city="Frankfurt"/>
+        <mail value="rudi@example.org"/>
+    </user>
+    <user name="Biene Maja">
+        <address street="Wiesenweg 33" city="Berlin"/>
+        <mail value="maja@example.org"/>
+    </user>
+</users>

@@ -1,0 +1,10 @@
+<course xmlns:lb="http://www.kursusportal.it/schemas/course" xmlns:noma="http://www.noma.dk" xmlns="urn:courses:it">
+    <lb:number>LB2744</lb:number>
+    <lb:name>XML Foundation</lb:name>
+    <noma:course xmlns="thiese">
+        <noma:type>Lunch</noma:type>
+        <noma:name>Spring 2020, Vegetarian</noma:name>
+        <drink>Milk</drink>
+    </noma:course>
+</course>
+

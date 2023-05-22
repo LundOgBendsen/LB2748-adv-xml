@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.djug.dk/address"
+        xmlns:tns="http://www.djug.dk/address">
+
+    <include schemaLocation="./StreetNoType.xsd" />
+
+    <complexType name="AddressType">
+        <sequence>
+            <element name="Street" type="string" />
+            <element name="StreetNo" type="tns:StreetNoType" />
+            <element name="Zip" type="string" />
+            <element name="City" type="string" />
+        </sequence>
+    </complexType>
+</schema>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+        targetNamespace="http://lundogbendsen.dk/schemas/2021/08/02/Text"
+        xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+        xmlns:tns="http://lundogbendsen.dk/schemas/2021/08/02/Text">
+    <element name="text" type="tns:textType"/>
+    <complexType name="textType">
+        <choice maxOccurs="unbounded">
+            <element name="b" type="string"/> <!--bold, fed -->
+            <element name="i" type="string"/> <!--italics, kursiv -->
+            <element name="u" type="string"/> <!--underline, understreget -->
+            <element name="p" type="string"/> <!--plain/paragraph, alm.tekst -->
+        </choice>
+    </complexType>
+</schema>
