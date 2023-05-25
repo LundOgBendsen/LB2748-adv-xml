@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- a recursive organisation structure resembling that of the UN with persons and sub orgnisations-->
+<Organisationer>
+    <Organisation>
+        <Navn>UN</Navn>
+        <Personer>
+            <Person>
+                <Navn>Antonio</Navn>
+                <Alder>50</Alder>
+            </Person>
+            <Person>
+                <Navn>Ban</Navn>
+                <Alder>25</Alder>
+            </Person>
+            <!--list of persons, 10 first american presidents-->
+            <Person>
+                <Navn>George Washington</Navn>
+                <Alder>57</Alder>
+            </Person>
+            <Person>
+                <Navn>John Adams</Navn>
+                <Alder>61</Alder>
+            </Person>
+            <Person>
+                <Navn>Thomas Jefferson</Navn>
+                <Alder>57</Alder>
+            </Person>
+        </Personer>
+        <Organisationer>
+            <Organisation>
+                <Navn>UNICEF</Navn>
+                <Organisationer>
+                    <Organisation>
+                        <Navn>UNICEF DK</Navn>
+                        <Personer>
+                            <Person>
+                                <Navn>Henrik</Navn>
+                                <Alder>50</Alder>
+                            </Person>
+                            <Person>
+                                <Navn>Per</Navn>
+                                <Alder>25</Alder>
+                            </Person>
+                        </Personer>
+                        <Organisationer>
+                            <Organisation>
+                                <Navn>UNICEF DK, frihavnen</Navn>
+                                <Personer>
+                                    <Person>
+                                        <Navn>Henrik</Navn>
+                                        <Alder>50</Alder>
+                                    </Person>
+                                    <Person>
+                                        <Navn>Per</Navn>
+                                        <Alder>25</Alder>
+                                    </Person>
+                                </Personer>
+                                <Organisationer>
+                                    <Organisation>
+                                        <Navn>Frihavnen - festudvalget</Navn>
+                                        <Personer>
+                                            <Person>
+                                                <Navn>Pia</Navn>
+                                                <Alder>50</Alder>
+                                            </Person>
+                                            <Person>
+                                                <Navn>Lotte</Navn>
+                                                <Alder>52</Alder>
+                                            </Person>
+                                        </Personer>
+                                    </Organisation>
+                                    <Organisation>
+                                        <Navn>Frihavnen - bestyrelsen</Navn>
+                                        <Personer>
+                                            <Person>
+                                                <Navn>Noa</Navn>
+                                                <Alder>29</Alder>
+                                            </Person>
+                                            <Person>
+                                                <Navn>Petra</Navn>
+                                                <Alder>34</Alder>
+                                            </Person>
+                                        </Personer>
+                                    </Organisation>
+                                </Organisationer>
+                            </Organisation>
+                        </Organisationer>
+                    </Organisation>
+                    <Organisation>
+                        <Navn>UNICEF UK</Navn>
+                        <Personer>
+                            <Person>
+                                <Navn>Alice</Navn>
+                                <Alder>50</Alder>
+                            </Person>
+                            <Person>
+                                <Navn>Bob</Navn>
+                                <Alder>25</Alder>
+                            </Person>
+                        </Personer>
+                    </Organisation>
+                </Organisationer>
+            </Organisation>
+            <Organisation>
+                <Navn>WHO</Navn>
+                <Organisationer>
+                    <Organisation>
+                        <Navn>WHO DK</Navn>
+                        <Personer>
+                            <Person>
+                                <Navn>Henrik</Navn>
+                                <Alder>50</Alder>
+                            </Person>
+                            <Person>
+                                <Navn>Per</Navn>
+                                <Alder>25</Alder>
+                            </Person>
+                        </Personer>
+                    </Organisation>
+                </Organisationer>
+            </Organisation>
+            <Organisation>
+                <Navn>UNESCO</Navn>
+                <Organisationer>
+                    <Organisation>
+                        <Navn>UNESCO DK</Navn>
+                        <Personer>
+                            <Person>
+                                <Navn>Henrik</Navn>
+                                <Alder>50</Alder>
+                            </Person>
+                            <Person>
+                                <Navn>Per</Navn>
+                                <Alder>25</Alder>
+                            </Person>
+                        </Personer>
+                    </Organisation>
+                </Organisationer>
+            </Organisation>
+        </Organisationer>
+    </Organisation>
+</Organisationer>

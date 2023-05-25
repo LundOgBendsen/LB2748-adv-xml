@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+   <!-- her matcher vi på roden af dokumentet og det er et cdliste dokument v1.0 -->
     <xsl:template match="/">
         <html>
             <body>

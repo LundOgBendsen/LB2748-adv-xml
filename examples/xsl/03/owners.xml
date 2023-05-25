@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<a>
+
+
+
 <owners>
     <legal-unit>
         <person>
@@ -23,4 +28,6 @@
         </company>
         <ownership>60</ownership>
     </legal-unit>
+    <comp>test</comp>
 </owners>
+</a>
